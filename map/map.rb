@@ -1,5 +1,6 @@
 #using each
 require 'pry'
+
 def kennedy_brothers
   brothers = ["Robert", "Ted", "Joseph", "John"]
 
@@ -10,9 +11,10 @@ def kennedy_brothers
   end
 
 end
+p kennedy_brothers
 
 #using maps
-require 'pry'
+
 def kennedy_brothers
   brothers = ["Robert", "Ted", "Joseph", "John"]
 
@@ -21,4 +23,4 @@ def kennedy_brothers
   end
 
 end
-binding.pry
+p kennedy_brothers
