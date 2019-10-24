@@ -4,9 +4,8 @@ class Ceo < Employee
   attr_reader :base_salary,
               :bonus
 
-  def initialize(base_salary, bonus)
-    @base_salary = base_salary
-    @bonus       = bonus
+  def initialize(hourly_rate, bonus,)
+    @hourly_rate = hourly_rate
     super(name, id)
   end
 end
