@@ -80,26 +80,26 @@ calculator.start_calculator
 
 
 
-class Calculator
-  attr_holder :number
+#class Calculator
+  #attr_holder :number
 
-  def initialize(number)
-    @number = number
-  end
+  #def initialize(number)
+    #@number = number
+  #end
 
-  def add_two(number)
-    @number  += 2
-    p number
-  end
+  #def add_two(number)
+    #@number  += 2
+    #p number
+  #end
 
-  def print_welcome
-    puts "Welcome to Calculator"
-  end
+  #def print_welcome
+    #puts "Welcome to Calculator"
+  #end
 
-end
+#end
 
-calculator = Calculator.new(0)
+#calculator = Calculator.new(0)
 
-calculator.print_welcome
+#calculator.print_welcome
 
-calculator.add_two(number)
+#calculator.add_two(number)
